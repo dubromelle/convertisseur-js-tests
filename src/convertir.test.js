@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { celsiusToFahrenheit } from './conversions'
+import { celsiusToFahrenheit } from './convertir'
 
 test('0°C doit donner 32°F', () => {
   expect(celsiusToFahrenheit(0)).toBe(32)
